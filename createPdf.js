@@ -8,7 +8,7 @@ async function createPdf() {
 
   const fontSize = 30;
   const text = "Click here to visit the link";
-  const url = "https://ogatalars.github.io/my-cv"; // substitua pelo link desejado
+  const url = "Your Link here"; // substitua pelo link desejado
 
   page.drawText(text, {
     x: 50,
